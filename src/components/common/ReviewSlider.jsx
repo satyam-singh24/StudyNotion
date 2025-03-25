@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/free-mode"
 import "swiper/css/pagination"
+import "swiper/css/autoplay"
 import "../../App.css"
 // Icons
 import { FaStar } from "react-icons/fa"
@@ -50,6 +51,11 @@ function ReviewSlider() {
             disableOnInteraction: false,
           }}
           modules={[FreeMode, Pagination, Autoplay]}
+          breakpoints={{
+            1024 : {
+              slidesPerView : 4,
+            },
+          }}
           className="w-full "
         >
           {reviews.map((review, i) => {

@@ -38,7 +38,7 @@ export const HomePageExplore = [
                 lessionNumber : 6
             },
             {
-                heading : "Responsive ",
+                heading : "Tailwind ",
                 description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
@@ -49,19 +49,19 @@ export const HomePageExplore = [
         tag: 'Most popular',
         courses : [
             {
-                heading : "Java",
+                heading : "Python",
                 description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Python",
+                heading : "Java",
                 description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "SCSS",
+                heading : "C++",
                 description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
@@ -114,4 +114,5 @@ export const HomePageExplore = [
             },
         ]
     },
+    
 ]
